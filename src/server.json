@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "username": "gewg",
+      "password": "",
+      "email": "",
+      "firstName": "",
+      "lastName": "",
+      "city": "",
+      "country": "",
+      "company": "",
+      "postalCode": "",
+      "aboutMe": "",
+      "id": 1
+    },
+    {
+      "username": "lenya",
+      "password": "k6tyktyk",
+      "email": "",
+      "firstName": "",
+      "lastName": "",
+      "city": "",
+      "country": "",
+      "company": "",
+      "postalCode": "",
+      "aboutMe": "",
+      "id": 3
+    },
+    {
+      "username": "Grother",
+      "password": "nety",
+      "email": "www.himik",
+      "firstName": "Ilka",
+      "lastName": "Egoshchenkov",
+      "city": "Kobrin",
+      "country": "Belarus",
+      "company": "Pazornadzor",
+      "postalCode": "220007",
+      "aboutMe": "Geniy",
+      "id": 4
+    },
+    {
+      "username": "q",
+      "password": "w",
+      "email": "e",
+      "firstName": "r",
+      "lastName": "t",
+      "city": "y",
+      "country": "u",
+      "company": "i",
+      "postalCode": "o",
+      "aboutMe": "p",
+      "id": 5
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

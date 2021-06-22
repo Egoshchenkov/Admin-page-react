@@ -1,0 +1,44 @@
+.StartPageGrid {
+  font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 1.5fr 1fr ;
+    border: 6px double grey;
+    width: 39.5%;
+    height: 30rem;
+    margin: 15% 30%;
+    font-size: 2rem;
+}
+
+.item1 {
+    align-self: center;
+    transform: translateX(4rem);
+}
+
+.item2 {
+    align-self: start;
+}
+
+.AppLogo {
+    display: block;
+    width: 60%;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .AppLogo {
+      animation: AppLogo-spin infinite 10s linear;
+    }
+  }
+  @keyframes AppLogo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .Welcome {
+      font-size: 3rem;
+}

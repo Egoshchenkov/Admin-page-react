@@ -1,0 +1,128 @@
+.DataGrid {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  border: 6px double grey;
+  width: 55%;
+  height: 30rem;
+  margin: 15% 23%;
+  display: grid;
+  grid-template-areas: 
+  "i d d";
+  grid-template-columns: .7fr 1fr 1fr;
+}
+
+.nav {
+  background-color: rgb(28, 28, 165);
+  justify-self: stretch;
+  align-self: stretch;
+  color: white;
+  grid-area: i;
+}
+
+.navName {
+  font-size: 2.5rem;
+  border-bottom: 1px solid white;
+  padding: 2.5rem 5rem 1rem 5rem;
+  width: 40%;
+}
+
+
+.DataBox {
+  font-size: 1.6rem;
+  grid-area: d;
+  display: grid; 
+  height: 246px;
+}
+
+.Row {
+  display: grid; 
+  grid-auto-flow: column;
+  height: 10%;
+  justify-content: start;
+
+  div {
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    // height: 10%;
+    padding: 1rem 0;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  
+  div:last-child {
+    border-right: none;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  border-bottom: 1px solid grey;
+}
+
+.users {
+  height: 205px;
+}
+
+.checkBox {
+  width: 3rem;
+}
+
+.id {
+  width: 3rem;
+}
+
+.username {
+  width: 10rem;
+}
+
+.email {
+  width: 10rem;
+}
+
+.firstName {
+  width: 10rem;
+}
+
+.lastName {
+  width: 10rem;
+}
+
+.city {
+  width: 50px;
+}
+
+.country {
+  width: 80px;
+}
+
+.company {
+  width: 80px;
+}
+
+.postalCode {
+  width: 10.4rem;
+}
+
+.deleteButton {
+  display: inline-block;
+  transform: translate(20rem, -1.5rem);
+}
+
+.editButton {
+  display: inline-block;
+  transform: translate(20rem, -1.5rem);
+}
+
+.selectedRow {
+  
+  background-color: rgb(219, 217, 217);
+
+}
+
+.selectedCell {
+  background-color: rgb(185, 184, 184);
+}

@@ -1,0 +1,76 @@
+.UserProfileGrid {
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: .7fr 1fr 1fr;
+    grid-template-areas: 
+    "i h n"
+    "i m m";
+    border: 6px double grey;
+    width: 55%;
+    height: 30rem;
+    margin: 15% 23%;
+  }
+
+.nav {
+  background-color: rgb(28, 28, 165);
+  justify-self: stretch;
+  align-self: stretch;
+  color: white;
+  grid-area: i;
+}
+
+.navName {
+  font-size: 2.5rem;
+  border-bottom: 1px solid white;
+  padding: 2.5rem 5rem 1rem 5rem;
+  width: 40%;
+}
+
+.item1 {
+      grid-area: h;
+      padding: 2rem 1rem;
+
+      div {
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem
+      }
+
+      input {
+        margin-left: 2rem;
+        width: 17rem;
+      }
+}
+
+.item2 {
+    grid-area: n;
+    padding: 2rem 1rem;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+        padding: .5rem
+      }
+
+      input {
+        margin-left: 2rem;
+        width: 17rem;
+      }
+}
+
+.item3 {
+    grid-area: m;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  border-bottom: 1px solid grey;
+}

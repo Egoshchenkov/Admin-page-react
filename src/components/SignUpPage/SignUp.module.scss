@@ -1,0 +1,49 @@
+.SignUpGrid {
+  font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "h n"
+    "m m";
+    border: 6px double grey;
+    width: 39.5%;
+    height: 30rem;
+    margin: 15% 30%;
+    font-size: 2rem;
+  }
+
+.item1 {
+      grid-area: h;
+      padding: 2rem;
+
+      div {
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem
+      }
+
+      input {
+        margin-left: 2rem;
+      }
+}
+
+.item2 {
+    grid-area: n;
+    padding: 2rem;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+        padding: .5rem
+      }
+
+      input {
+        margin-left: 2rem;
+      }
+}
+
+.item3 {
+    grid-area: m;
+}
